@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <title>Fst-Georgia.ge</title>
+</head>
+<body>
+    <section class="header-four">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a> </li>
+                    <li> <a href="trips.html">TRIPS</a> </li>
+                    <li> <a href="history.html">HISTORY</a> </li>
+                    <li> <a href="contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Trips To Georgia</h1>
+    </section>
+    <!-----some JavaScript for menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200"
+    }
+</script>
+
+<!---trips--->
+<section class="trips">
+    <div class="row">
+        <div class="trips-column">
+            <h1>Our Site Complies Your Journey</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium saepe delectus molestiae error, consequuntur ipsum dolor tenetur nisi, dignissimos laborum omnis facilis ab, sequi reprehenderit voluptates! Id, tempore earum.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. ullam placeat velit praesentium omnis dolores voluptatibus repellendus, consectetur quibusdam quasi saepe. Qui saepe molestias explicabo numquam. </p>
+            <a href="#">More</a>
+        </div>
+        <div class="journey">
+            <img src="img/journey.jpg" alt="">
+        </div>
+        
+    </div>
+</section>
+
+
+
+<section class="footer">
+    <h4>Contact Us From Anywhere On the world </h4>
+    <a href="#">CONTACT US</a>
+    <p>All Rights Reserved</p>
+    <p class="footer-text">© 2022 Fst-Georgia.ge</p>
+    <div class="social_media">
+        <ol>
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></li>
+           <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+           <li><a href="https://www.youtube.com/?gl=GE&tab=w11"><i class="fab fa-youtube"></i></a></li>
+        </ol>
+   </div>
+</section>
+</body>
+</html>
